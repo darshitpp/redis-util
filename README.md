@@ -4,7 +4,7 @@
 
 Stats from storing `test_data.json`
 
-##Normal JSON storage
+## Normal JSON storage
 
 ```
 127.0.0.1:6379> hgetall "Priscilla"
@@ -20,7 +20,7 @@ Stats from storing `test_data.json`
 26) (integer) 32840
 ```
 
-##With MsgPack
+## With MsgPack
 
 ```
 127.0.0.1:6379> hgetall "Priscilla"
@@ -36,7 +36,7 @@ Stats from storing `test_data.json`
 26) (integer) 15976
 ```
 
-##With MsgPack and Snappy Compression
+## With MsgPack and Snappy Compression
 
 ```
 127.0.0.1:6379> hgetall "Priscilla"
