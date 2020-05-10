@@ -52,6 +52,7 @@ Stats from storing `test_data.json`
 26) (integer) 15976
 ```
 ---
+Memory Usage in Bytes
 
 |Normal | MessagePack | MessagePack With Snappy |
 |-------|-------------|-------------------------|
